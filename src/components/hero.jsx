@@ -2,7 +2,7 @@ export default function Hero({ srcimg }) {
   return (
     <>
       <div
-        className='bg-gradient-to-r from-blue-100 via-blue-100 to-purple-100 flex justify-center items-center px-20 pt-40 pb-20 m-0 h-auto max-md:px-12 max-lg:flex-col max-lg:justify-center '
+        className='bg-gradient-to-r from-blue-100 via-blue-100 to-purple-100 flex justify-center items-center px-20 pt-40 pb-60 m-0 h-auto max-md:px-12 max-lg:flex-col max-lg:justify-center '
         id='home'>
         <div className='max-lg:w-full flex justify-center items-center lg:hidden max-lg:pt-16 mb-16'>
           <img src={srcimg} alt='' className='w-[200px] rounded-full' />
