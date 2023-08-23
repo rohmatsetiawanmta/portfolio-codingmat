@@ -5,9 +5,9 @@ function App() {
   return (
     <>
       <Header />
-      <Hero />
-      <Hero />
-      <Hero />
+      <Hero srcimg={'/images/placeholder.svg'} />
+      {/* <Hero srcimg={'/images/hero.png'} /> */}
+      {/* <Hero /> */}
     </>
   );
 }
