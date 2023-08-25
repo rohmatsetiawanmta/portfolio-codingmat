@@ -1,0 +1,27 @@
+{
+  "skillSet": [
+    {
+      "skillGroup": "Softskills",
+      "skillName": ["Leadership", "Teamwork Management", "Project Management", "Problem Solving", "Analytical Thinking", "Attention to Detail"]
+    },
+    {
+      "skillGroup": "Educational Content Creator Skills",
+      "skillName": ["Mathematics", "Statistics", "Educational Content Writing", "Question Making", "Live Teaching", "Video Content Creating"]
+    }
+  ],
+  "techStack": [
+    { "techName": "HTML", "techImage": "./images/html.svg" },
+    { "techName": "CSS", "techImage": "./images/css.svg" },
+    { "techName": "Javascript", "techImage": "./images/javascript.svg" },
+    { "techName": "React", "techImage": "./images/react.svg" },
+    { "techName": "TailwindCSS", "techImage": "./images/tailwind.svg" },
+    { "techName": "ChakraUI", "techImage": "./images/chakra.svg" },
+    { "techName": "Node.js", "techImage": "./images/node.svg" },
+    { "techName": "Express.js", "techImage": "./images/express.svg" },
+    { "techName": "Axios", "techImage": "./images/axios.svg" },
+    { "techName": "MySQL", "techImage": "./images/mysql.svg" },
+    { "techName": "Sequelize", "techImage": "./images/sequelize.svg" },
+    { "techName": "GitHub", "techImage": "./images/github.svg" },
+    { "techName": "Figma", "techImage": "./images/figma.svg" }
+  ]
+}

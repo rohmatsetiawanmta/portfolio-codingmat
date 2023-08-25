@@ -5,7 +5,7 @@ export default function Header() {
 
   return (
     <>
-      <div className='fixed'>
+      <div className='fixed z-[1]'>
         <div className='w-screen bg-gradient-to-r from-orange-700 to-orange-400 flex justify-between items-center px-20 max-md:px-12 m-0 h-20 overflow-hidden'>
           <a href='/'>
             <div className='text-white text-3xl font-bold py-6 max-sm:text-2xl'>
