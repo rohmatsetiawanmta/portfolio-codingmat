@@ -12,7 +12,7 @@ export default function Portfolio() {
       <div
         className='bg-gradient-to-r from-blue-200 via-blue-200 to-purple-200 flex flex-col justify-center items-center px-60 pt-40 pb-60 m-0 h-auto max-md:px-12 max-lg:flex-col max-lg:justify-center'
         id='portfolio'>
-        <div className='text-6xl font-bold text-blue-900 text-right leading-tight max-lg:pt-0 mb-4'>Portfolio.</div>
+        <div className='text-6xl font-bold text-blue-900 text-center leading-tight max-lg:pt-0 mb-4'>My Portfolio.</div>
         <div className='h-[20px] w-[150px] bg-orange-500'></div>
         <div className='flex justify-center items-center gap-3 pt-8'>
           <div

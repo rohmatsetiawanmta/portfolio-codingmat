@@ -112,5 +112,11 @@
       "linkIcon": ["bx bx-link-external"],
       "linkURL": ["https://matrohmatmath.com/pdf/math-reasoning-question-making-portfolio.pdf"]
     }
+  ],
+  "contact": [
+    { "logo": "./images/linkedin.svg", "display": "Rohmat Setiawan", "link": "https://www.linkedin.com/in/rohmat-setiawan/" },
+    { "logo": "./images/gmail.svg", "display": "rohmatsetiawanmta@gmail.com", "link": "mailto:rohmatsetiawanmta@gmail.com" },
+    { "logo": "./images/whatsapp.svg", "display": "+62 812 9712 5253", "link": "https://wa.me/6281297125253" },
+    { "logo": "./images/telegram.svg", "display": "@rohmatsetiawan", "link": "https://t.me/rohmatsetiawan" }
   ]
 }

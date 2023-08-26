@@ -4,9 +4,9 @@ export default function About() {
       <div
         className='bg-gradient-to-r from-blue-200 via-blue-200 to-purple-200 flex flex-col justify-center items-center px-60 pt-40 pb-60 m-0 h-auto max-md:px-12 max-lg:flex-col max-lg:justify-center'
         id='about'>
-        <div className='text-6xl font-bold text-blue-900 text-right leading-tight max-lg:pt-0 mb-4'>About Me.</div>
+        <div className='text-6xl font-bold text-blue-900 text-center leading-tight max-lg:pt-0 mb-4'>About Me.</div>
         <div className='h-[20px] w-[150px] bg-orange-500'></div>
-        <div className='text-2xl font-medium text-gray-700 pt-8  text-justify leading-normal'>
+        <div className='text-2xl font-medium text-gray-700 pt-8 text-justify leading-normal'>
           <span className='text-4xl font-bold'> Hello...</span>
           <br />
           <br />I am a mathematics graduate with a passion for web development and a strong desire to explore new opportunities in this field. Through
