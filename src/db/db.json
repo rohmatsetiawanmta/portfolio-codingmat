@@ -26,7 +26,7 @@
     { "techName": "GitHub", "techImage": "./images/github.svg" },
     { "techName": "Figma", "techImage": "./images/figma.svg" }
   ],
-  "portfolioCategories": ["Fullstack Portfolio", "Mini Portfolio", "Educational Content Portfolio"],
+  "portfolioCategories": ["Fullstack Portfolio", "Mini Portfolio", "Frontend Slicing Portfolio", "Educational Content Portfolio"],
   "portfolioData": [
     {
       "name": "JakartaThreads - Multi Warehouse E-Commerce",
@@ -34,7 +34,7 @@
       "category": "Fullstack Portfolio",
       "image": "./images/portfolio-jakarta-threads.png",
       "techStack": ["HTML", "CSS", "Javascript", "React", "TailwindCSS", "ChakraUI", "Node.js", "Express.js", "Axios", "MySQL", "Sequelize"],
-      "linkName": ["Link Portfolio", "Link GitHub"],
+      "linkIcon": ["bx bx-link-external", "bx bxl-github"],
       "linkURL": ["https://jcwdol00805.vercel.app/", "https://github.com/rohmatsetiawanmta/jcwdol00805"]
     },
     {
@@ -43,7 +43,7 @@
       "category": "Mini Portfolio",
       "image": "./images/portfolio-todo-app.png",
       "techStack": ["HTML", "CSS", "Javascript", "React", "Vite", "Bootstrap"],
-      "linkName": ["Link Portfolio", "Link GitHub"],
+      "linkIcon": ["bx bx-link-external", "bx bxl-github"],
       "linkURL": ["https://codingmat.com/todo/", "https://github.com/rohmatsetiawanmta/list-app"]
     },
     {
@@ -52,7 +52,7 @@
       "category": "Mini Portfolio",
       "image": "./images/portfolio-weather-app.png",
       "techStack": ["HTML", "CSS", "Javascript", "API"],
-      "linkName": ["Link Portfolio", "Link GitHub"],
+      "linkIcon": ["bx bx-link-external", "bx bxl-github"],
       "linkURL": ["https://portfolio.matrohmatmath.com/weather-app", "https://github.com/rohmatsetiawanmta/weather-app"]
     },
     {
@@ -61,7 +61,7 @@
       "category": "Mini Portfolio",
       "image": "./images/portfolio-age-calculator.png",
       "techStack": ["HTML", "CSS", "Javascript"],
-      "linkName": ["Link Portfolio", "Link GitHub"],
+      "linkIcon": ["bx bx-link-external", "bx bxl-github"],
       "linkURL": ["https://portfolio.matrohmatmath.com/age-calculator", "https://github.com/rohmatsetiawanmta/age-calculator"]
     },
     {
@@ -70,8 +70,47 @@
       "category": "Mini Portfolio",
       "image": "./images/portfolio-qr-code-generator.png",
       "techStack": ["HTML", "CSS", "Javascript", "API"],
-      "linkName": ["Link Portfolio", "Link GitHub"],
+      "linkIcon": ["bx bx-link-external", "bx bxl-github"],
       "linkURL": ["https://portfolio.matrohmatmath.com/qr-code-generator", "https://github.com/rohmatsetiawanmta/qr-code-generator"]
+    },
+    {
+      "name": "QR Code Component - Frontend Mentor",
+      "description": "",
+      "category": "Frontend Slicing Portfolio",
+      "image": "./images/portfolio-qr-code-component.png",
+      "techStack": ["HTML", "CSS"],
+      "linkIcon": ["bx bx-link-external", "bx bxl-github"],
+      "linkURL": ["https://rohmatsetiawanmta.github.io/fem-qr-code-component/", "https://github.com/rohmatsetiawanmta/fem-qr-code-component"]
+    },
+    {
+      "name": "Results Summary Component - Frontend Mentor",
+      "description": "",
+      "category": "Frontend Slicing Portfolio",
+      "image": "./images/portfolio-result-summary-component.png",
+      "techStack": ["HTML", "CSS"],
+      "linkIcon": ["bx bx-link-external", "bx bxl-github"],
+      "linkURL": [
+        "https://rohmatsetiawanmta.github.io/fem-results-summary-component/",
+        "https://github.com/rohmatsetiawanmta/fem-results-summary-component"
+      ]
+    },
+    {
+      "name": "Logic and Puzzle Question Making",
+      "description": "",
+      "category": "Educational Content Portfolio",
+      "image": "./images/portfolio-logic-and-puzzle.png",
+      "techStack": ["Microsoft Word", "Microsoft PowerPoint", "Logic and Puzzle", "Question Making", "Educational Content Writing"],
+      "linkIcon": ["bx bx-link-external"],
+      "linkURL": ["https://matrohmatmath.com/pdf/logic-and-puzzle-question-making-portfolio.pdf"]
+    },
+    {
+      "name": "Math Reasoning Question Making",
+      "description": "",
+      "category": "Educational Content Portfolio",
+      "image": "./images/portfolio-math-reasoning.png",
+      "techStack": ["Microsoft Word", "Microsoft PowerPoint", "Mathematics", "Question Making", "Educational Content Writing"],
+      "linkIcon": ["bx bx-link-external"],
+      "linkURL": ["https://matrohmatmath.com/pdf/math-reasoning-question-making-portfolio.pdf"]
     }
   ]
 }

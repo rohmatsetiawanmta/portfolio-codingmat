@@ -14,7 +14,7 @@ export default function PortfolioCard(props) {
           <div className='text-center text-md font-medium text-justify'>{props.data.description}</div>
           {more ? (
             <>
-              <div className='text-center text-lg font-bold text-justify mt-4'>Tech Stack(s):</div>
+              <div className='text-center text-lg font-bold text-justify mt-4'>Tech Stack(s) and Skill(s):</div>
               <div className='flex flex-wrap justify-center items-center gap-2'>
                 {props.data.techStack.map((val, idx) => {
                   return (
@@ -26,13 +26,12 @@ export default function PortfolioCard(props) {
                   );
                 })}
               </div>
-              <div className='text-center text-lg font-bold text-justify mt-4'>Link(s):</div>
-              <div className='flex flex-wrap justify-center items-center gap-2'>
-                {props.data.linkName.map((val, idx) => {
+              <div className='flex flex-wrap justify-center items-center gap-2 pt-4'>
+                {props.data.linkIcon.map((val, idx) => {
                   return (
                     <a href={props.data.linkURL[idx]} key={idx} target='_blank' rel='noreferrer'>
-                      <p className='text-sm border-2 border-blue-900 px-2 py-1 rounded-xl hover:bg-blue-900 hover:text-white ease-in duration-300'>
-                        {props.data.linkName[idx]}
+                      <p className='text-2xl border-2 border-blue-900 px-2 py-2 rounded-full flex hover:bg-blue-900 hover:text-white ease-in duration-300'>
+                        <i className={props.data.linkIcon[idx]}></i>
                       </p>
                     </a>
                   );
