@@ -14,7 +14,9 @@
     { "techName": "CSS", "techImage": "./images/css.svg" },
     { "techName": "Javascript", "techImage": "./images/javascript.svg" },
     { "techName": "React", "techImage": "./images/react.svg" },
+    { "techName": "Vite", "techImage": "./images/vite.svg" },
     { "techName": "TailwindCSS", "techImage": "./images/tailwind.svg" },
+    { "techName": "Bootstrap", "techImage": "./images/bootstrap.svg" },
     { "techName": "ChakraUI", "techImage": "./images/chakra.svg" },
     { "techName": "Node.js", "techImage": "./images/node.svg" },
     { "techName": "Express.js", "techImage": "./images/express.svg" },
@@ -23,5 +25,53 @@
     { "techName": "Sequelize", "techImage": "./images/sequelize.svg" },
     { "techName": "GitHub", "techImage": "./images/github.svg" },
     { "techName": "Figma", "techImage": "./images/figma.svg" }
+  ],
+  "portfolioCategories": ["Fullstack Portfolio", "Mini Portfolio", "Educational Content Portfolio"],
+  "portfolioData": [
+    {
+      "name": "JakartaThreads - Multi Warehouse E-Commerce",
+      "description": "Jakarta Threads is an e-commerce application that implements multiple warehouses for storing goods. This is my team's final project from Purwadhika's Fullstack Web Development Bootcamp. It is an e-commerce application that implements more than one warehouse for storing its goods. The implementation aims to improve delivery speed and reduce shipping costs.",
+      "category": "Fullstack Portfolio",
+      "image": "./images/portfolio-jakarta-threads.png",
+      "techStack": ["HTML", "CSS", "Javascript", "React", "TailwindCSS", "ChakraUI", "Node.js", "Express.js", "Axios", "MySQL", "Sequelize"],
+      "linkName": ["Link Portfolio", "Link GitHub"],
+      "linkURL": ["https://jcwdol00805.vercel.app/", "https://github.com/rohmatsetiawanmta/jcwdol00805"]
+    },
+    {
+      "name": "To Do List App",
+      "description": "To Do List App is an application that helps you to organize your task. You can easily add, get, sort, update status, and delete your task with this application.",
+      "category": "Mini Portfolio",
+      "image": "./images/portfolio-todo-app.png",
+      "techStack": ["HTML", "CSS", "Javascript", "React", "Vite", "Bootstrap"],
+      "linkName": ["Link Portfolio", "Link GitHub"],
+      "linkURL": ["https://codingmat.com/todo/", "https://github.com/rohmatsetiawanmta/list-app"]
+    },
+    {
+      "name": "Weather App",
+      "description": "The Weather App provides weather information for cities and regions around the world. Powered by the OpenWeatherMap API, enter your city or region into the search field to get the weather conditions for your location.",
+      "category": "Mini Portfolio",
+      "image": "./images/portfolio-weather-app.png",
+      "techStack": ["HTML", "CSS", "Javascript", "API"],
+      "linkName": ["Link Portfolio", "Link GitHub"],
+      "linkURL": ["https://portfolio.matrohmatmath.com/weather-app", "https://github.com/rohmatsetiawanmta/weather-app"]
+    },
+    {
+      "name": "Age Calculator",
+      "description": "Age Calculator is an application that provides information about your age in years, months, and days. Enter your date of birth to get your precise age in years, months, and days.",
+      "category": "Mini Portfolio",
+      "image": "./images/portfolio-age-calculator.png",
+      "techStack": ["HTML", "CSS", "Javascript"],
+      "linkName": ["Link Portfolio", "Link GitHub"],
+      "linkURL": ["https://portfolio.matrohmatmath.com/age-calculator", "https://github.com/rohmatsetiawanmta/age-calculator"]
+    },
+    {
+      "name": "QR Code Generator",
+      "description": "QR Code Generator is an application that generates QR Codes from your text or URL. Powered by the QR Code API, you can easily generate a QR Code by entering your text or URL into the provided field.",
+      "category": "Mini Portfolio",
+      "image": "./images/portfolio-qr-code-generator.png",
+      "techStack": ["HTML", "CSS", "Javascript", "API"],
+      "linkName": ["Link Portfolio", "Link GitHub"],
+      "linkURL": ["https://portfolio.matrohmatmath.com/qr-code-generator", "https://github.com/rohmatsetiawanmta/qr-code-generator"]
+    }
   ]
 }
