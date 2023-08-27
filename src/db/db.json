@@ -47,6 +47,15 @@
       "linkURL": ["https://codingmat.com/todo/", "https://github.com/rohmatsetiawanmta/list-app"]
     },
     {
+      "name": "Color Randomizer App",
+      "description": "Color Randomizer App is an application that generates a random color for you whenever you're unsure about which color to choose. You also can save any generated color for future use.",
+      "category": "Mini Portfolio",
+      "image": "./images/portfolio-color-randomizer.png",
+      "techStack": ["HTML", "CSS", "Javascript", "React", "Vite", "TailwindCSS"],
+      "linkIcon": ["bx bx-link-external", "bx bxl-github"],
+      "linkURL": ["https://codingmat.com/color-randomizer/", "https://github.com/rohmatsetiawanmta/color-randomizer-app"]
+    },
+    {
       "name": "Weather App",
       "description": "The Weather App provides weather information for cities and regions around the world. Powered by the OpenWeatherMap API, enter your city or region into the search field to get the weather conditions for your location.",
       "category": "Mini Portfolio",
